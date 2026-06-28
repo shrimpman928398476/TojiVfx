@@ -201,7 +201,7 @@ local effectPart = Instance.new("Part")
  
  
  
-    task.delay(maxLifetime * 3,  function()
+    task.delay(maxLifetime * 3.60,  function()
  
  
  
@@ -410,7 +410,7 @@ local part1 = Instance.new("Part")
  
  
  
-    task.delay(maxLifetime * 1,  function()
+    task.delay(maxLifetime * 1.25,  function()
  
  
  
