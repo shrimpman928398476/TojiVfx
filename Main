@@ -641,6 +641,7 @@ local effectPart = Instance.new("Part")
     end
  end)
 
-    task.wait(1)
+    task.delay(1, function()
     effectPart:Destroy()
+  end)
 end
