@@ -860,5 +860,6 @@ local part1 = Instance.new("Part")
     end
  end)
 
-    task.wait(1.5) part1:Destroy()
+    task.delay(1.5, function() part1:Destroy()
 end)
+end
