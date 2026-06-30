@@ -1114,7 +1114,7 @@ local part1 = Instance.new("Part")
  
  
     for _, particle in ipairs(particles) do
- particle:Emit(10)
+ particle:Emit(1)
         particle.Enabled = false
  
     end
