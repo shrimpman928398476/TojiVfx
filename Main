@@ -1109,7 +1109,7 @@ local part1 = Instance.new("Part")
  
  
  
-    task.delay(maxLifetime * 3,  function()
+    task.delay(maxLifetime * 2.15,  function()
  
  
  
