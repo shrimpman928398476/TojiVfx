@@ -1381,9 +1381,9 @@ local effectPart1 = Instance.new("Part")
  
     effectPart1.Parent = workspace
  
-    effectPart1.Size = Vector3.new(11,1,11)
+    effectPart1.Size = Vector3.new(11,3,11)
     effectPart1.Massless = true
-effectPart1.CFrame = rA.CFrame * CFrame.new(0,0, -3)
+effectPart1.CFrame = rA.CFrame * CFrame.new(0,1.5, -3)
 
     local function createFolderPath(parent, path)
 
