@@ -1383,7 +1383,7 @@ local effectPart1 = Instance.new("Part")
  
     effectPart1.Size = Vector3.new(11,1,11)
     effectPart1.Massless = true
-effectPart1.CFrame = rA.CFrame * CFrame.new(0,-3, -3)
+effectPart1.CFrame = rA.CFrame * CFrame.new(0,0, -3)
 
     local function createFolderPath(parent, path)
 
@@ -1429,7 +1429,7 @@ effectPart1.CFrame = rA.CFrame * CFrame.new(0,-3, -3)
                         particle.ShapeStyle = Enum.ParticleEmitterShapeStyle.Volume
                 particle.FlipbookFramerate = NumberRange.new(4,4)
                 particle.LightInfluence = 0
-                particle.Lifetime = NumberRange.new(0.4,0.4)
+                particle.Lifetime = NumberRange.new(0.1,0.15)
                 particle.FlipbookLayout = Enum.ParticleFlipbookLayout.None
 
                 particle.SpreadAngle = Vector2.new(25.000000, 180.000000)
@@ -1441,7 +1441,7 @@ effectPart1.CFrame = rA.CFrame * CFrame.new(0,-3, -3)
                 particle.TimeScale = 0.6000000238418579
                 particle.VelocitySpread = 0
                 particle.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 0.5), NumberSequenceKeypoint.new(1.000000, 0.5)})
-                particle.Speed = NumberRange.new(1,30)
+                particle.Speed = NumberRange.new(0.01,0.01)
                 particle.Brightness = 0
                 particle.Size = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 1), NumberSequenceKeypoint.new(0.135140, 1),  NumberSequenceKeypoint.new(1.000000, 1)})
                 particle.Enabled = false
@@ -1469,7 +1469,7 @@ effectPart1.CFrame = rA.CFrame * CFrame.new(0,-3, -3)
                         particle.ShapeStyle = Enum.ParticleEmitterShapeStyle.Volume
                 particle.FlipbookFramerate = NumberRange.new(4, 4)
                 particle.LightInfluence = 0
-                particle.Lifetime = NumberRange.new(0.4,0.4)
+                particle.Lifetime = NumberRange.new(0.1,0.15)
                 particle.FlipbookLayout = Enum.ParticleFlipbookLayout.None
 
                 particle.SpreadAngle = Vector2.new(25.000000, 180.000000)
@@ -1481,7 +1481,7 @@ effectPart1.CFrame = rA.CFrame * CFrame.new(0,-3, -3)
                 particle.TimeScale = 0.6000000238418579
                 particle.VelocitySpread = 0
                 particle.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 0.5), NumberSequenceKeypoint.new(1.000000, 0.5)})
-                particle.Speed = NumberRange.new(1,30)
+                particle.Speed = NumberRange.new(0.01,0.01)
                 particle.Brightness = 10
                 particle.Size = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 1), NumberSequenceKeypoint.new(0.135140, 1),  NumberSequenceKeypoint.new(1.000000, 1)})
                 particle.Enabled = false
